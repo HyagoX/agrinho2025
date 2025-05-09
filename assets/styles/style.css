@@ -158,8 +158,8 @@
   left: 10%; /* ajusta a posição para a esquerda */
   top: 50%; /* move para o centro vertical */
   transform: translateY(-50%); /* centraliza verticalmente */
-  width: 10rem;
-  height: 10rem;
+  width: 31.875rem;
+  height: 17.313rem;
   background-color: #E7DDC4;
   border-bottom-right-radius: 2rem; /* aplica o border-radius só no canto inferior direito */
 }
