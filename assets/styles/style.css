@@ -68,6 +68,15 @@
   justify-content: center; /* centraliza os itens do menu */
 }
 
+.main-nav a{
+  font-size: 1.125rem;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: none;
+  color: black;
+}
+
 .hero-banner {
   position: relative;
   width: 100%;
