@@ -35,7 +35,7 @@
   }
 
 .main-nav {
-  background-color: #1A5E1E;;
+  background-color: linear-gradient(90deg, #1A5E1E 0%, #68C26E 100%);
   height: 6.0625rem; /* 97px - mantendo a altura original */
   display: flex;
   justify-content: space-between; /* alterado para space-between */
@@ -67,6 +67,11 @@
   flex-grow: 1; /* permite que o menu ocupe o espaço disponível */
   justify-content: center; /* centraliza os itens do menu */
 }
+
+.main-nav a {
+  font-size: ;
+}
+
 .hero-banner {
   position: relative;
   width: 100%;
