@@ -162,6 +162,7 @@
   height: 17.313rem;
   background-color: #E7DDC4;
   border-bottom-right-radius: 2rem; /* aplica o border-radius só no canto inferior direito */
+  line-height: 17.313rema;
 }
 
 .quadrado p {
