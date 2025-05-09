@@ -179,7 +179,7 @@
 
 /* Seção principal */
 .campo-cidade {
-  background-color: #F9F6EF;
+  background-color: #E7DDC4;
   padding: 5rem 2rem;
   display: flex;
   flex-direction: column;
@@ -201,7 +201,7 @@
   max-width: 800px;
   width: 100%;
   padding: 2rem;
-  background-color: #fff;
+  background-color: #E7DDC4;
   border-radius: 1rem;
   box-shadow: 0 0 15px rgba(0,0,0,0.05);
 }
