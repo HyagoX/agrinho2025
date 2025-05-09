@@ -33,33 +33,39 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  
-  .main-nav {
-    background-color: #E7DDC4;
-    height: 6.0625rem; /* 97px */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .main-nav ul {
-    display: flex;
-    gap: 3.4375rem; /* 55px */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-
-.main-nav ul li a {
-  font-family: 'Inria Sans', sans-serif;
-  font-size: 1.125rem; /* 18px */
-  font-weight: 700;    /* Bold */
-  text-decoration: none;
-  color: #000;
+.main-nav {
+  background-color: #E7DDC4;
+  height: 6.0625rem; /* 97px - mantendo a altura original */
+  display: flex;
+  justify-content: space-between; /* alterado para space-between */
+  align-items: center;
+  padding: 0 20px; /* adicionado padding para espaçamento lateral */
 }
 
+.nav-logo {
+  height: 80%; /* altura relativa ao container pai */
+  max-height: 5rem; /* altura máxima para não ultrapassar o menu */
+  width: auto; /* largura automática para manter proporção */
+  object-fit: contain; /* garante que a imagem inteira será visível */
+}
 
+.left-logo {
+  margin-right: auto; /* empurra para a esquerda */
+}
+
+.right-logo {
+  margin-left: auto; /* empurra para a direita */
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 3.4375rem; /* 55px */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1; /* permite que o menu ocupe o espaço disponível */
+  justify-content: center; /* centraliza os itens do menu */
+}
 .hero-banner {
   position: relative;
   width: 100%;
