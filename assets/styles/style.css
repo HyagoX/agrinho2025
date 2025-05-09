@@ -215,7 +215,10 @@
 .footer-right img {
   max-height: 100px;
   width: auto;
-  gap: 8rem;
+}
+
+.footer-right{
+    gap: 8rem;
 }
 
 .footer-bottom {
