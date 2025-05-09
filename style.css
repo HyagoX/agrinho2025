@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+:root{
+    --cor-primaria: #fff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .top-bar {
+    height: 3.125rem;
+    width: 100%;
+    background-image: url('/assets/img/barra-topo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .main-nav {
+    background-color: #E7DDC4;
+    height: 6.0625rem; /* 97px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-nav ul {
+    display: flex;
+    gap: 3.4375rem; /* 55px */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+.main-nav ul li a {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 700;    /* Bold */
+  text-decoration: none;
+  color: #000;
+}
+
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 49.125rem; /* 786px */
+  background-image: url('/assets/img/transicao_upscayl_4x_upscayl-standard-4x.png');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px); /* efeito de blur */
+  background-color: rgba(0, 0, 0, 0.3); /* leve escurecimento opcional */
+  display: flex;
+  flex-direction: column;
+  gap: 1.375rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem; /* 48px */
+  font-weight: 700;
+  color: var(--cor-primaria);
+  text-align: center;
+  text-shadow: 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
+}
+
+.hero-overlay h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.375rem; /* 48px */
+  font-weight: 700;
+  color: var(--cor-primaria);
+  text-align: center;
+  text-shadow: 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.5);;
+}
+
+.hero-overlay a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem; /* 48px */
+    font-weight: 700;
+    padding: 1.175rem 3.5rem;
+    font-style: none;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 1.250rem;
+    background-color: #68C26E;
+    border-radius: 0.600rem;
+    margin-top: 1.75rem;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 2.375rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    width: 100%;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.sobre h1 {
+    margin: 3rem 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.sobre p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.banner2 {
+    margin-top: 5rem;
+    height: 32rem;
+    width: 100%;
+    background-image: url('/assets/img/image_fx.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-border{
+    background-color: #E7DDC4;
+    height: 31.87rem;
+    width: 17.313;
+}
+
