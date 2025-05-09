@@ -248,3 +248,20 @@
   background-color: #111;
   font-size: 1rem;
 }
+
+.footer-contact {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer-contact a {
+  color: #68C26E;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.footer-contact a:hover {
+  color: #fff;
+}
