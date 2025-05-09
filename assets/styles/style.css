@@ -192,25 +192,36 @@
   flex-wrap: wrap;
 }
 
-.footer-left ul {
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem; /* Espaço entre as colunas de links */
+}
+
+.footer-links ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-left ul li {
+.footer-links ul li {
   margin-bottom: 0.75rem;
 }
 
-.footer-left ul li a {
+.footer-links ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s;
 }
 
-.footer-left ul li a:hover {
+.footer-links ul li a:hover {
   color: #68C26E;
 }
+
 
 .footer-right {
   display: flex;
