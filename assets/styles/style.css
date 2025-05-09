@@ -215,7 +215,7 @@
 .footer-right {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .footer-right img {
