@@ -33,9 +33,9 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
 .main-nav {
-  background-color: #E7DDC4;
+  background-color: #1A5E1E;;
   height: 6.0625rem; /* 97px - mantendo a altura original */
   display: flex;
   justify-content: space-between; /* alterado para space-between */
