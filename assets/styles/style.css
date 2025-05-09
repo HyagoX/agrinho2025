@@ -212,14 +212,24 @@
   color: #68C26E;
 }
 
-.footer-right img {
-  max-height: 100px;
-  width: auto;
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
-.footer-right{
-    gap: 8rem;
+.footer-right img {
+  max-height: 80px;
+  width: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 0.5rem; 
 }
+
+.footer-right img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
 
 .footer-bottom {
   text-align: center;
