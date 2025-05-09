@@ -224,76 +224,85 @@
   background-color: #000;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 2rem;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 2rem 4rem;
+  align-items: flex-start;
+  padding: 0 4rem 2rem;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .footer-left {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
-.footer-links {
-  display: flex;
-  gap: 3rem; /* Espaço entre as colunas de links */
-}
-
-.footer-links ul {
+.footerNav ul {
   list-style: none;
-  padding: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-.footer-links ul li {
-  margin-bottom: 0.75rem;
-}
-
-.footer-links ul li a {
+.footerNav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s;
+  font-weight: 500;
 }
 
-.footer-links ul li a:hover {
+.footerNav ul li a:hover {
   color: #68C26E;
 }
 
+.icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: #68C26E;
+}
 
 .footer-right {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .footer-right img {
   max-height: 80px;
-  width: auto;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  border-radius: 0.5rem; 
+  height: auto;
+  transition: transform 0.3s ease;
 }
 
 .footer-right img:hover {
   transform: scale(1.05);
-  opacity: 0.9;
 }
-
 
 .footer-bottom {
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #111;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .footer-contact {
   text-align: center;
-  margin-top: 1rem;
+  margin: 1.5rem 0;
 }
 
 .footer-contact a {
@@ -306,4 +315,26 @@
 
 .footer-contact a:hover {
   color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem 2rem;
+  }
+  
+  .footer-left {
+    align-items: center;
+  }
+  
+  .footerNav ul {
+    justify-content: center;
+  }
+  
+  .footer-right {
+    justify-content: center;
+    margin-top: 1rem;
+  }
 }
