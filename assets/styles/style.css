@@ -163,3 +163,11 @@
   background-color: #E7DDC4;
   border-bottom-right-radius: 2rem; /* aplica o border-radius só no canto inferior direito */
 }
+
+.quadrado p {
+  text-align: center;
+  font-size: 2.188rem;
+  color: #1A5E1E;
+  
+
+}
