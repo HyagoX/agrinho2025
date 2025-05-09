@@ -35,7 +35,7 @@
   }
 
 .main-nav {
-  background-color: linear-gradient(90deg, #1A5E1E 0%, #68C26E 100%);
+  background-color: #A78A6E;
   height: 6.0625rem; /* 97px - mantendo a altura original */
   display: flex;
   justify-content: space-between; /* alterado para space-between */
