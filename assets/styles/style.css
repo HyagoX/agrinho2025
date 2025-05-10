@@ -148,10 +148,14 @@
   border-left: 5px solid #1A5E1E;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease-out; /* Adiciona transição suave para todos os estados */
+  will-change: transform; /* Otimização de performance */
 }
 
 .sobre-bloco:hover{
-  transform: translateY(-3px);
+  transform: translateY(-5px); /* Movimento mais sutil */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12); /* Sombra mais pronunciada no hover */
+  border-left-color: #68C26E; /* Muda a cor da borda esquerda */
 }
 
 .sobre-bloco h1 {
