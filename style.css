@@ -625,11 +625,13 @@ footer {
     background-color: #E1306C;
 }
 
-.icons a:nth-child(3):hover {
-  background-color: #000000;
+.icons a:nth-child(3) svg {
+  width: 20px;
+  height: 20px;
+  color: black;
 }
 
-.icons a:nth-child(3):hover i {
+.icons a:nth-child(3):hover svg {
   color: white;
 }
 
