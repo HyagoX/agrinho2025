@@ -187,40 +187,85 @@
 
 
 .banner2 {
-  position: relative; /* necessário para posicionar o quadrado */
-  margin-top: 5rem;
+  position: relative;
   height: 32rem;
   width: 100%;
   background-image: url('/assets/img/image_fx_upscayl_3x_upscayl-standard-4x.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
-
-.quadrado {
+  background-attachment: fixed; /* Efeito parallax */
   display: flex;
-  position: absolute;
-  left: 10%;
-  top: 50%; 
-  transform: translateY(-50%);
-  width: 31.875rem;
-  height: 17.313rem;
-  background-color: #E7DDC4;
-  border-bottom-right-radius: 2rem;
-  align-items: center;  
-  justify-content: center;
-
+  align-items: center;
+  overflow: hidden;
 }
 
-.quadrado p {
-  text-align: center;
+.destaque-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.destaque-quote {
+  background-color: rgba(231, 221, 196, 0.93); /* E7DDC4 com transparência */
+  width: 36rem;
+  padding: 2.5rem;
+  border-radius: 0 1.5rem 1.5rem 1.5rem;
+  position: relative;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(3px); /* Efeito vidro fosco */
+  border-left: 5px solid #1A5E1E;
+}
+
+.destaque-quote p {
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.1rem;
+  line-height: 1.4;
   color: #1A5E1E;
-  font-family: 'Montserrat' sans-serif;
   font-weight: 600;
-
+  position: relative;
+  z-index: 2;
+  margin: 0;
 }
 
+.quote-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(26, 94, 30, 0.08); /* Verde transparente */
+  border-radius: 0 0 1.5rem 0;
+}
+
+.quote-icon {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 2rem;
+  color: #1A5E1E;
+  opacity: 0.2;
+  font-size: 4rem;
+}
+
+/* Efeito hover */
+.destaque-quote:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  background-color: rgba(231, 221, 196, 0.98);
+  transition: all 0.4s ease;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .destaque-quote {
+    width: 90%;
+    padding: 1.8rem;
+  }
+  
+  .destaque-quote p {
+    font-size: 1.6rem;
+  }
+}
 .campo-cidade {
   background-color: #E7DDC4;
   padding: 5rem 2rem;
