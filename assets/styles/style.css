@@ -35,7 +35,7 @@
   }
 
 .main-nav {
-  background-color: #A78A6E;
+  background-color: #121E12;
   height: 6.0625rem; /* 97px - mantendo a altura original */
   display: flex;
   justify-content: space-between; /* alterado para space-between */
@@ -74,7 +74,7 @@
   font-weight: 700;
   text-decoration: none;
   font-style: none;
-  color: black;
+  color: white;
 }
 
 .hero-banner {
