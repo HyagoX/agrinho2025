@@ -46,7 +46,6 @@ O site contém as seguintes seções principais:
 ✅ **Formulário Interativo**: Validação básica de campos  
 ✅ **Efeitos Visuais**: Hover, transições e animações CSS  
 ✅ **Design Responsivo**: Funciona em todos os dispositivos  
-✅ **SEO Básico**: Meta tags para melhor indexação  
 
 ## 5. Desafios e Soluções
 | Desafio | Solução Implementada |
