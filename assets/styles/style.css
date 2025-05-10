@@ -35,48 +35,46 @@
   }
 
 .main-nav {
-  background-color: #121E12;
-  height: 6.0625rem; /* 97px - mantendo a altura original */
+  background-color: #121E12; /* Preto esverdeado */
+  height: 6.0625rem;
   display: flex;
-  justify-content: space-between; /* alterado para space-between */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
   align-items: center;
-  padding: 0 20px; /* adicionado padding para espaçamento lateral */
+  padding: 0 20px;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1200px; /* Limita a largura para telas grandes */
+  display: flex;
+  justify-content: space-between; /* Espaço igual entre todos os elementos */
+  align-items: center;
 }
 
 .nav-logo {
-  height: 80%; /* altura relativa ao container pai */
-  max-height: 5rem; /* altura máxima para não ultrapassar o menu */
-  width: auto; /* largura automática para manter proporção */
-  object-fit: contain; /* garante que a imagem inteira será visível */
-}
-
-.left-logo {
-  margin-right: auto; /* empurra para a esquerda */
-}
-
-.right-logo {
-  margin-left: auto; /* empurra para a direita */
+  height: 4rem; /* Altura fixa para as imagens */
+  width: auto;
+  object-fit: contain;
 }
 
 .main-nav ul {
   display: flex;
-  gap: 3.4375rem; /* 55px */
+  gap: 2rem; /* Reduzi um pouco o gap para melhor espaçamento */
   list-style: none;
   padding: 0;
   margin: 0;
-  flex-grow: 1; /* permite que o menu ocupe o espaço disponível */
-  justify-content: center; /* centraliza os itens do menu */
+  flex-grow: 1; /* Permite que o menu ocupe o espaço disponível */
+  justify-content: center; /* Centraliza os itens do menu */
 }
 
-.main-nav a{
+.main-nav ul li a {
+  font-family: 'Inria Sans', sans-serif;
   font-size: 1.125rem;
-  font-family: 'Montserrat' sans-serif;
   font-weight: 700;
   text-decoration: none;
-  font-style: none;
-  color: white;
+  color: white; /* Texto branco para contraste */
+  padding: 0.5rem 1rem; /* Adiciona um pouco de espaço ao redor dos links */
 }
-
 .hero-banner {
   position: relative;
   width: 100%;
