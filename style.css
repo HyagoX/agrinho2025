@@ -35,36 +35,36 @@
   }
 
 .main-nav {
-  background-color: #121E12; /* Preto esverdeado */
+  background-color: #121E12;
   height: 6.0625rem;
   display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center;
   align-items: center;
   padding: 0 20px;
 }
 
 .nav-container {
   width: 100%;
-  max-width: 1200px; /* Limita a largura para telas grandes */
+  max-width: 1200px;
   display: flex;
-  justify-content: space-between; /* Espaço igual entre todos os elementos */
+  justify-content: space-between;
   align-items: center;
 }
 
 .nav-logo {
-  height: 4rem; /* Altura fixa para as imagens */
+  height: 4rem;
   width: auto;
   object-fit: contain;
 }
 
 .main-nav ul {
   display: flex;
-  gap: 2rem; /* Reduzi um pouco o gap para melhor espaçamento */
+  gap: 2rem;
   list-style: none;
   padding: 0;
   margin: 0;
-  flex-grow: 1; /* Permite que o menu ocupe o espaço disponível */
-  justify-content: center; /* Centraliza os itens do menu */
+  flex-grow: 1; 
+  justify-content: center;
 }
 
 .main-nav ul li a {
@@ -72,8 +72,8 @@
   font-size: 1.125rem;
   font-weight: 700;
   text-decoration: none;
-  color: white; /* Texto branco para contraste */
-  padding: 0.5rem 1rem; /* Adiciona um pouco de espaço ao redor dos links */
+  color: white;
+  padding: 0.5rem 1rem; 
 }
 .hero-banner {
   position: relative;
@@ -91,8 +91,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(5px); /* efeito de blur */
-  background-color: rgba(0, 0, 0, 0.3); /* leve escurecimento opcional */
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   gap: 1.375rem;
@@ -111,7 +111,7 @@
 
 .hero-overlay h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.375rem; /* 48px */
+  font-size: 1.375rem;
   font-weight: 700;
   color: var(--cor-primaria);
   text-align: center;
@@ -120,7 +120,7 @@
 
 .hero-overlay a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem; /* 48px */
+    font-size: 3rem;
     font-weight: 700;
     padding: 1.175rem 3.5rem;
     font-style: none;
@@ -148,14 +148,14 @@
   border-left: 5px solid #1A5E1E;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease-out; /* Adiciona transição suave para todos os estados */
-  will-change: transform; /* Otimização de performance */
+  transition: all 0.3s ease-out;
+  will-change: transform;
 }
 
 .sobre-bloco:hover{
-  transform: translateY(-5px); /* Movimento mais sutil */
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12); /* Sombra mais pronunciada no hover */
-  border-left-color: #68C26E; /* Muda a cor da borda esquerda */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border-left-color: #68C26E;
 }
 
 .sobre-bloco h1 {
@@ -209,13 +209,13 @@
 }
 
 .destaque-quote {
-  background-color: rgba(231, 221, 196, 0.93); /* E7DDC4 com transparência */
+  background-color: rgba(231, 221, 196, 0.93);
   width: 36rem;
   padding: 2.5rem;
   border-radius: 0 1.5rem 1.5rem 1.5rem;
   position: relative;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(3px); /* Efeito vidro fosco */
+  backdrop-filter: blur(3px);
   border-left: 5px solid #1A5E1E;
 }
 
@@ -236,7 +236,7 @@
   left: 0;
   width: 30%;
   height: 100%;
-  background-color: rgba(26, 94, 30, 0.08); /* Verde transparente */
+  background-color: rgba(26, 94, 30, 0.08);
   border-radius: 0 0 1.5rem 0;
 }
 
@@ -249,7 +249,6 @@
   font-size: 4rem;
 }
 
-/* Efeito hover */
 .destaque-quote:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
@@ -432,9 +431,8 @@ footer {
     opacity: 0.9;
 }
 
-/* Hover Effect on social media icons */
 .icons a:hover {
-    background-color: #4267B2; /* Facebook blue */
+    background-color: #4267B2;
     transform: translateY(-3px);
 }
 
@@ -443,15 +441,15 @@ footer {
 }
 
 .icons a:nth-child(2):hover {
-    background-color: #E1306C; /* Instagram pink */
+    background-color: #E1306C;
 }
 
 .icons a:nth-child(3):hover {
-    background-color: #1DA1F2; /* Twitter blue */
+    background-color: #1DA1F2;
 }
 
 .icons a:nth-child(4):hover {
-    background-color: #FF0000; /* YouTube red */
+    background-color: #FF0000;
 }
 
 
@@ -529,7 +527,6 @@ footer {
   }
 }
 
-/* Efeitos de hover para links de navegação */
 .main-nav ul li a {
   position: relative;
   transition: color 0.3s;
@@ -554,7 +551,6 @@ footer {
   width: 100%;
 }
 
-/* Melhorias para os blocos de conteúdo */
 .bloco {
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -576,7 +572,40 @@ footer {
   transform: translateY(0);
 }
 
-/* Transição suave para todas as animações */
+
 * {
   scroll-behavior: smooth;
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(231, 221, 196, 0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.loading-screen.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(155, 77, 150, 0.2);
+    border-radius: 50%;
+    border-top-color: #1A5E1E;
+    animation: spin 1s linear infinite;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  
 }
