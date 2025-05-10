@@ -185,18 +185,6 @@
   text-align: justify;
 }
 
-/* Efeito decorativo opcional */
-.sobre-bloco:before {
-  content: '';
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  width: 100px;
-  height: 100px;
-  background: url('assets/img/leaf-pattern.png') no-repeat;
-  opacity: 0.1;
-  transform: rotate(15deg);
-}
 
 .banner2 {
   position: relative; /* necessário para posicionar o quadrado */
