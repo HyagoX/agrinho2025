@@ -133,31 +133,80 @@
 }
 
 .sobre {
-    display: flex;
-    flex-direction: column;
-    gap: 2.375rem;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px; 
-    width: 100%;
-    padding: 0 2rem;
-    margin: 0 auto;
+  background-color: #f8f5f0; /* Fundo mais claro para destacar */
+  padding: 4rem 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
-.sobre h1 {
-    margin: 3rem 0 0 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: black;
-    text-align: center;
+.sobre-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.sobre p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
-    text-align: center;
+.sobre-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1A5E1E;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+.sobre-titulo:after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(90deg, #1A5E1E, #68C26E);
+  bottom: -10px;
+  left: 10%;
+  border-radius: 2px;
+}
+
+.sobre-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.sobre-texto {
+  flex: 1;
+}
+
+.sobre-texto p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.sobre-imagem {
+  flex: 1;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.sobre-imagem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.sobre-imagem:hover img {
+  transform: scale(1.03);
+}
+
+
 
 .banner2 {
   position: relative; /* necessário para posicionar o quadrado */
@@ -334,7 +383,19 @@ footer {
 
 
 @media (max-width: 600px) {
-    .footerNav ul {
+  .sobre-content {
+    flex-direction: column;
+  }
+  
+  .sobre-titulo {
+    font-size: 2.2rem;
+  }
+  
+  .sobre-texto p {
+    font-size: 1.1rem;
+  }  
+  
+  .footerNav ul {
         flex-direction: column;
         align-items: center;
     }
@@ -342,4 +403,6 @@ footer {
     .footerNav ul li {
         margin: 5px 0;
     }
+
+    
 }
