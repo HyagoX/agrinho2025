@@ -187,14 +187,14 @@
 
 
 .banner-destaque {  /* ← Nome correto da classe */
-  
+
   border: 2px solid red; /* Para verificar se o elemento está renderizado */
   background-color: rgba(0,0,0,0.1); /* Cor de fallback */
 
   position: relative;
   height: 32rem;
   width: 100%;
-  background-image: url('assets/img/image_fx_upscayl_3x_upscayl-standard-4x.png');
+  background-image: url('../assets/img/image_fx_upscayl_3x_upscayl-standard-4x.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
