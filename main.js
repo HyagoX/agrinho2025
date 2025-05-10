@@ -1,3 +1,5 @@
+const loadingScreen = document.querySelector('.loading-screen');
+
 document.addEventListener('DOMContentLoaded', function() {
     // Ensure body has loading class initially
     document.body.classList.add('loading');
