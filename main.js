@@ -50,9 +50,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         const loader = document.querySelector('.loader-container');
         loader.classList.add('hidden');
         
-        // Remove o loader do DOM após a animação terminar
         loader.addEventListener('transitionend', function() {
           loader.remove();
         });
-      }, 1500); // 1.5 segundos - ajuste conforme necessário
+      }, 1500);
     });
