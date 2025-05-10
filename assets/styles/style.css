@@ -133,80 +133,62 @@
 }
 
 .sobre {
-  background-color: #f8f5f0; /* Fundo mais claro para destacar */
   padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-bloco {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+  padding: 3rem;
+  max-width: 900px;
+  width: 100%;
+  border-left: 5px solid #1A5E1E;
   position: relative;
   overflow: hidden;
 }
 
-.sobre-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.sobre-titulo {
+.sobre-bloco h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.8rem;
-  font-weight: 700;
+  font-size: 2.3rem;
   color: #1A5E1E;
+  margin-bottom: 1.5rem;
   text-align: center;
-  margin-bottom: 2.5rem;
   position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
-.sobre-titulo:after {
+.sobre-bloco h1:after {
   content: '';
-  position: absolute;
-  width: 80%;
-  height: 4px;
-  background: linear-gradient(90deg, #1A5E1E, #68C26E);
-  bottom: -10px;
-  left: 10%;
-  border-radius: 2px;
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #68C26E;
+  margin: 0.8rem auto 0;
 }
 
-.sobre-content {
-  display: flex;
-  gap: 3rem;
-  align-items: center;
-}
-
-.sobre-texto {
-  flex: 1;
-}
-
-.sobre-texto p {
+.sobre-conteudo p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   line-height: 1.8;
   color: #333;
   margin-bottom: 1.5rem;
   text-align: justify;
 }
 
-.sobre-imagem {
-  flex: 1;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+/* Efeito decorativo opcional */
+.sobre-bloco:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  background: url('assets/img/leaf-pattern.png') no-repeat;
+  opacity: 0.1;
+  transform: rotate(15deg);
 }
-
-.sobre-imagem img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.5s ease;
-}
-
-.sobre-imagem:hover img {
-  transform: scale(1.03);
-}
-
-
 
 .banner2 {
   position: relative; /* necessário para posicionar o quadrado */
