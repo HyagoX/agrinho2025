@@ -186,7 +186,7 @@
 }
 
 
-.banner-destaque {
+#banner-destaque {
   /* Debug visual (remova depois que funcionar) */
   border: 2px solid red;
   background-color: rgba(0,0,0,0.1);
