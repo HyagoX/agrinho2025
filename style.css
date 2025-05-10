@@ -95,12 +95,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  background-image: url('assets/img/background-nav.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat; 
-  box-shadow: inset 0 0 15px rgba(0,0,0,0.3);
+
 }
 
 .nav-container {
