@@ -190,7 +190,7 @@
   position: relative;
   height: 32rem;
   width: 100%;
-  background-image: url();
+  background-image: url('assets/img/image_fx_upscayl_3x_upscayl-standard-4x.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Efeito parallax */
@@ -255,7 +255,6 @@
   transition: all 0.4s ease;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .destaque-quote {
     width: 90%;
