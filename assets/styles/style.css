@@ -200,6 +200,7 @@
 }
 
 .destaque-container {
+  background-image: url('assets/img/image_fx_upscayl_3x_upscayl-standard-4x.png');
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
