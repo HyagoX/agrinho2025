@@ -90,7 +90,7 @@
 
 .main-nav {
   background-color: #121E12;
-  height: auto; /* Alterado para auto */
+  height: auto;
   min-height: 6.0625rem;
   display: flex;
   justify-content: center;
@@ -121,7 +121,6 @@
   z-index: 100;
 }
 
-/* Menu para desktop */
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -143,7 +142,6 @@
   transition: color 0.3s;
 }
 
-/* Botão do menu mobile - escondido no desktop */
 .mobile-menu-button {
   display: none;
   background: none;
@@ -238,7 +236,6 @@
   }
 }
 
-/* Efeitos de hover (para desktop) */
 @media (min-width: 769px) {
   .nav-links li a:hover {
     color: #68C26E;
