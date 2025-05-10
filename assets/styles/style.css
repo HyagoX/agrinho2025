@@ -186,21 +186,28 @@
 }
 
 
-.banner-destaque {  /* ← Nome correto da classe */
+.banner-destaque {
+  /* Debug visual (remova depois que funcionar) */
+  border: 2px solid red;
+  background-color: rgba(0,0,0,0.1);
 
-  border: 2px solid red; /* Para verificar se o elemento está renderizado */
-  background-color: rgba(0,0,0,0.1); /* Cor de fallback */
-
+  /* Layout */
   position: relative;
-  height: 32rem;
+  height: 32rem; /* 512px */
   width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  /* Background */
   background-image: url('../assets/img/image_fx_upscayl_3x_upscayl-standard-4x.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
+  background-repeat: no-repeat; /* Adicionei para garantir */
+
+  /* Melhorias opcionais */
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.3); /* Efeito de profundidade */
 }
 
 .destaque-container {
