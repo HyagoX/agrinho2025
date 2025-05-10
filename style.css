@@ -626,7 +626,11 @@ footer {
 }
 
 .icons a:nth-child(3):hover {
-    background-color: #000000;
+  background-color: #000000;
+}
+
+.icons a:nth-child(3):hover i {
+  color: white;
 }
 
 .icons a:nth-child(4):hover {
