@@ -69,6 +69,3 @@ O site contém as seguintes seções principais:
 - *Imagens*: FreePik
 - *Icones*: Font Awesome (v6.0)
 - *Fontes*: Google Fonts
-
-
-## 8. Licença
