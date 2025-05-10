@@ -190,7 +190,7 @@
   position: relative;
   height: 32rem;
   width: 100%;
-  background-image: url('assets/img/image_fx_upscayl_3x_upscayl');
+  background-image: url();
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Efeito parallax */
