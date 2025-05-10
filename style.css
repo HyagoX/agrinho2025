@@ -103,6 +103,13 @@
   box-shadow: inset 0 0 15px rgba(0,0,0,0.3);
 }
 
+@media (max-width: 600px) {
+  .main-nav{
+    height: 3.5rem;
+  }
+
+}
+
 .nav-container {
   width: 100%;
   max-width: 1200px;
