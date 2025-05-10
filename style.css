@@ -95,6 +95,13 @@
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+  position: relative;
+  width: 100%;
+  height: 49.125rem; /* 786px */
+  background-image: url('assets/img/background-nav.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .nav-container {
