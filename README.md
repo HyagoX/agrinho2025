@@ -6,7 +6,7 @@
 - **Escola**: C.C.M João Paulo II
 - **Município**: Arapoti
 - **Professor Orientador**: Mariana
-- **Tipo de Projeto**: Site Responsivo
+- **Tipo de Projeto**: Landing Page Responsiva
 - **Licença**: MIT
 
 ## 1. Objetivo do Projeto
